@@ -1,0 +1,125 @@
+body {
+    background-color: #FDFD96;
+    font-family: "Comic Sans MS", cursive;
+    color: #FF69B4;
+    text-align: center;
+    animation: magic-background 10s infinite;
+  }
+  
+  @keyframes magic-background {
+    0% {
+      background-color: #FDFD96;
+    }
+    25% {
+      background-color: #FF69B4;
+    }
+    50% {
+      background-color: #ADD8E6;
+    }
+    75% {
+      background-color: #FFB6C1;
+    }
+    100% {
+      background-color: #FDFD96;
+    }
+  }
+  
+  header {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 72px;
+    text-shadow: 2px 2px #FF69B4;
+  }
+  
+  nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #FF69B4;
+    transition: color 0.5s;
+  }
+  
+  nav a:hover {
+    color: #ADD8E6;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  section {
+    width: 80%;
+    text-align: left;
+    padding: 50px;
+    background-color: #FFB6C1;
+    box-shadow: 2px 2px #ADD8E6;
+    border-radius: 10px;
+    animation: magic-section 1s;
+  }
+  
+  @keyframes magic-section {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  h2 {
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input[type="text"], input[type="email"], textarea {
+    font-size: 24px;
+    margin-bottom: 25px;
+    padding: 10px;
+  }
+  
+  input[type="submit"] {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #ADD8E6;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px #FF69B4;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #FF69B4;
+  }
+  
+  footer {
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: yellow;
+  }
+  
