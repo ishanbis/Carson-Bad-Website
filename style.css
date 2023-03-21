@@ -26,9 +26,14 @@ body {
   
   header {
     margin-top: 50px;
-    font-family: cursive;
+    font-family: Pussycat, Algerian, Broadway;
+    color: black;
   }
-  
+  footer {
+    display: block;
+    position: absolute;
+  }
+
   h1 {
     font-size: 72px;
     text-shadow: 2px 2px #FF69B4;
@@ -54,6 +59,8 @@ body {
     text-decoration: none;
     color: #FF69B4;
     transition: color 0.5s;
+    display: inline-block;
+    padding-bottom: 300%;
   }
   
   nav a:hover {
